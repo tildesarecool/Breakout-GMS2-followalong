@@ -4,3 +4,5 @@
 // between 45 and 135 -- in GMS 0 degrees is pointing right
 
 go = false;
+
+spd = 3;

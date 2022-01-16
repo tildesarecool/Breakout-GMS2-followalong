@@ -1,8 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if (go == false) {
-direction = random_range(45, 135);
-speed = spd;
-go = true;
+
+if ( irandom(2) == 0 ) {
+	instance_create_layer(x, y, "Instances", obj_powers);
 }
